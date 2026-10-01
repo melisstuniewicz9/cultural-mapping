@@ -594,7 +594,7 @@
                     <ref target="#technology">
                         <ref target="#theme_or_topic">
                             <ref target="#education">
-                                <ref target="#spatiality">In this chapter—originally conceived as a keynote presentation for the <orgName key="Canadian Writing Research Collaboratory" ref="http://www.wikidata.org/entity/Q134008740" ana="webannotation:http://temp.lincsproject.ca/0lSCCHkblNc" cert="high">Canadian Writing Research Collaboratory</orgName> conference on space, place, and play—I seek to promote wise foolishness in the spatial humanities. I intend to interrogate the bases of digital mapping and of engagement with geospatial information tools and systems (that is, with analytical <abbr>GIS</abbr>) as we have received those technologies from the sciences, and from more mimetic disciplines like landscape architecture and urban planning. Further, I hope to encourage and enable digital humanists to play with maps. By implication, that means to toy with (and maybe even subvert) established technological systems of production and dissemination of digital maps. Those twinned areas of praxis and inquiry, for my purposes, require much attention and work—and there is no denying that play elicits humanists’ best work.</ref>
+                                <ref target="#spatiality">In this chapter—originally conceived as a keynote presentation for the Canadian Writing Research Collaboratory conference on space, place, and play—I seek to promote wise foolishness in the spatial humanities. I intend to interrogate the bases of digital mapping and of engagement with geospatial information tools and systems (that is, with analytical <abbr>GIS</abbr>) as we have received those technologies from the sciences, and from more mimetic disciplines like landscape architecture and urban planning. Further, I hope to encourage and enable digital humanists to play with maps. By implication, that means to toy with (and maybe even subvert) established technological systems of production and dissemination of digital maps. Those twinned areas of praxis and inquiry, for my purposes, require much attention and work—and there is no denying that play elicits humanists’ best work.</ref>
                                 <ref target="#manuscript_history">
                                     <ref target="#childhood">At the heart of this essay is a set of historical maps by a fourteen-year-old girl from 1820s <placeName key="New England" ref="https://sws.geonames.org/11919979" ana="webannotation:http://temp.lincsproject.ca/CqTSBxcxMd5">New England</placeName>. I will offer Frances Henshaw and her cartographic method as our guide to a twenty-first-century humanities <abbr>GIS</abbr>
                                     </ref>
@@ -788,7 +788,7 @@
                         <ref target="#technology">
                             <ref target="#education">
                                 <ref target="#spatiality">
-                                    <ref target="#intertextuality">The chief geographical textbooks of <persName key="Willard, Emma, 1787-1870" ref="http://viaf.org/viaf/54499159" ana="webannotation:http://temp.lincsproject.ca/qVTdeqGBVs1">Willard</persName>’s day were <persName key="Morse, Jedidiah, 1761-1826" ref="http://viaf.org/viaf/59893447" ana="webannotation:http://temp.lincsproject.ca/J1j6L2n3Y3j">Jedidiah Morse’s</persName> <title level="m">Geography Made Easy</title> an<persName key="Webster, Noah, 1758-1843" ref="http://viaf.org/viaf/34505175" ana="webannotation:http://temp.lincsproject.ca/1lH6QDulase"><persName class="nerve-entity" data-nerve-entity-type="person" data-nerve-status="approved" data-nerve-wa-uuid="TZScID-gZek" aria-expanded="false" key="Webster, Noah, 1758-1843" ref="http://viaf.org/viaf/34505175" ana="webannotation:http://temp.lincsproject.ca/E7uwJlNGdgn">d  collection of grammars and spellers</persName></persName>. Both were geared toward purely textual and verbal exercises of memorization. <persName key="Morse, Jedidiah, 1761-1826" ref="http://viaf.org/viaf/59893447" ana="webannotation:http://temp.lincsproject.ca/6S5TGvRS0CA">Morse</persName> (whose book, I have discovered, served as a primary resource for Henshaw in 1823) offers complex and evocative textual descriptions of places and spaces on the American continent.</ref> He relegates maps, however, to an expensive and much less well-circulated supplementary volume. Similarly (as described by literary historian <persName key="Brückner, Martin, 1963-" ref="https://viaf.org/en/viaf/51981660" ana="webannotation:http://temp.lincsproject.ca/E4waOG6j09w">Martin Brückner</persName>), ’s closest gesture toward graphical expression of geography can be found in a prose <q>map</q> made entirely of typography—without representational line art—in which the names of American states and European countries are seen in rough spatial relation to each other <note place="inline">
+                                    <ref target="#intertextuality">The chief geographical textbooks of <persName key="Willard, Emma, 1787-1870" ref="http://viaf.org/viaf/54499159" ana="webannotation:http://temp.lincsproject.ca/qVTdeqGBVs1">Willard</persName>’s day were <persName key="Morse, Jedidiah, 1761-1826" ref="http://viaf.org/viaf/59893447" ana="webannotation:http://temp.lincsproject.ca/J1j6L2n3Y3j">Jedidiah Morse’s</persName> <title level="m">Geography Made Easy</title> an<persName key="Webster, Noah, 1758-1843" ref="http://viaf.org/viaf/34505175" ana="webannotation:http://temp.lincsproject.ca/1lH6QDulase"><persName class="nerve-entity" data-nerve-entity-type="conceptualObject" data-nerve-status="approved" data-nerve-wa-uuid="_zgAYy_pSNn" aria-expanded="false" key="Webster, Noah, 1758-1843" ref="http://viaf.org/viaf/34505175" ana="webannotation:http://temp.lincsproject.ca/E7uwJlNGdgn">d  collection of grammars and spellers</persName></persName>. Both were geared toward purely textual and verbal exercises of memorization. <persName key="Morse, Jedidiah, 1761-1826" ref="http://viaf.org/viaf/59893447" ana="webannotation:http://temp.lincsproject.ca/6S5TGvRS0CA">Morse</persName> (whose book, I have discovered, served as a primary resource for Henshaw in 1823) offers complex and evocative textual descriptions of places and spaces on the American continent.</ref> He relegates maps, however, to an expensive and much less well-circulated supplementary volume. Similarly (as described by literary historian <persName key="Brückner, Martin, 1963-" ref="https://viaf.org/en/viaf/51981660" ana="webannotation:http://temp.lincsproject.ca/E4waOG6j09w">Martin Brückner</persName>), ’s closest gesture toward graphical expression of geography can be found in a prose <q>map</q> made entirely of typography—without representational line art—in which the names of American states and European countries are seen in rough spatial relation to each other <note place="inline">
                                         <bibl><persName key="Brückner, Martin, 1963-" ref="http://viaf.org/viaf/51981660" ana="webannotation:http://temp.lincsproject.ca/XqHFptXANTq">Brückner</persName> 115</bibl>
                                     </note>.</ref>
                             </ref>
@@ -1530,96 +1530,6 @@
     },
     "P2_has_type": [
         "oa:identifying"
-    ]
-}]]>
-				
-</rdf:Description>
-				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/0lSCCHkblNc">
-<![CDATA[{
-    "@context": [
-        "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
-    ],
-    "id": "http://temp.lincsproject.ca/0lSCCHkblNc",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
-    "created": "2026-06-15T16:38:45.729Z",
-    "creator": {
-        "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
-    },
-    "generator": {
-        "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
-        "name": "NERVE",
-        "softwareVersion": "0.3.0"
-    },
-    "target": {
-        "id": "/target/t3zJcH977Et",
-        "type": [
-            "SpecificResource",
-            "crm:E73_Information_Object"
-        ],
-        "source": {
-            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_05_how_to_play_with_maps.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
-            "P1_is_identified_by": {
-                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_05_how_to_play_with_maps.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "How to Play with Maps"
-            }
-        },
-        "selector": [
-            {
-                "id": "/target/t3zJcH977Et/selector/textPosition/icI6Vj8dTmh",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 2896,
-                "end": 2935,
-                "refinedBy": {
-                    "id": "/target/t3zJcH977Et/selector/textQuote/gajocq2k0X3",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Canadian Writing Research Collaboratory",
-                    "prefix": "\n                \n                \n                    \n                        \n                            \n                                In this chapter—originally conceived as a keynote presentation for the",
-                    "suffix": "conference on space, place, and play—I seek to promote wise foolishness in the spatial humanities"
-                }
-            },
-            {
-                "id": "/target/t3zJcH977Et/selector/css/rvGIH2pFdqV",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/0lSCCHkblNc]"
-            }
-        ]
-    },
-    "body": {
-        "id": "http://www.wikidata.org/entity/Q134008740",
-        "type": "crm:E74_Group",
-        "label": "Canadian Writing Research Collaboratory",
-        "description": "online infrastructure for literary research in and about Canada"
-    },
-    "P2_has_type": [
-        "oa:identifying",
-        "edit:certaintyHigh"
     ]
 }]]>
 				
@@ -17526,8 +17436,12 @@
 		
 
 		
+
+		
 </xenoData>
 	
 	
 	
-	</standOff></TEI>
+	
+	</standOff>
+</TEI>
