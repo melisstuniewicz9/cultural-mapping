@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>--><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -375,7 +374,7 @@
                 </ab>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
             </projectDesc>
@@ -415,7 +414,7 @@
                 <docAuthor><persName key="Nowviskie, Bethany" ref="http://viaf.org/viaf/9880157643271438590009" ana="webannotation:http://temp.lincsproject.ca/H0zlzKb0P0G">Bethany Nowviskie</persName></docAuthor>
                 <p xml:id="p1214">
                     <ref target="#intertextuality">
-                        <ref target="#education">The title of this chapter is a nod to <persName key="Monmonier, Mark S." ref="http://viaf.org/viaf/79086507" ana="webannotation:http://temp.lincsproject.ca/TfkmNMrPSCu">Mark Monmonier’s</persName> influential 1991 volume, <title level="m">How to Lie with Maps</title>, a book that raised the cartographic awareness of a generation of university students, particularly in the social sciences where the stakes can be quite high for uncritical reading of graphs and images. <persName key="Monmonier, Mark S." ref="http://viaf.org/viaf/79086507" ana="webannotation:http://temp.lincsproject.ca/FVJpZSoNbUJ">Monmonier</persName> examines the complex rhetoric of contemporary mapmaking in the age of print journalism and pre-web mass media.</ref>
+                        <ref target="#education">The title of this chapter is a nod to <persName>Mark Monmonier’s</persName> influential 1991 volume, <title level="m">How to Lie with Maps</title>, a book that raised the cartographic awareness of a generation of university students, particularly in the social sciences where the stakes can be quite high for uncritical reading of graphs and images. <persName key="Monmonier, Mark S." ref="http://viaf.org/viaf/79086507" ana="webannotation:http://temp.lincsproject.ca/FVJpZSoNbUJ">Monmonier</persName> examines the complex rhetoric of contemporary mapmaking in the age of print journalism and pre-web mass media.</ref>
                         <ref target="#technology">His book provides a cautionary tour through the variety of expressive approaches that cartographers and the designers of geospatial infographics were using on the cusp—but not quite the bloom—of interactive digital mapping. In essence, it is a survey of print-based designs that produce geospatial un-truths in exactly those situations where truth is implied or expected.</ref> In other words, <persName key="Monmonier, Mark S." ref="http://viaf.org/viaf/79086507" ana="webannotation:http://temp.lincsproject.ca/xsGTxdzEQTf">Monmonier</persName> looks at mappy, newsprint versions of a progression <persName key="Twain, Mark, 1835-1910." ref="http://viaf.org/viaf/50566653" ana="webannotation:http://temp.lincsproject.ca/fkow5T62xSY">Mark Twain</persName> is said to have named <q>lies, damned lies, and statistics.</q>
                     </ref>
                 </p>
@@ -921,7 +920,11 @@
             </div>
         </body>
     </text>
-	<standOff type="annotation">
+	
+
+
+
+<standOff xmlns="http://www.tei-c.org/ns/1.0" type="annotation">
 		
 <xenoData>
 			
@@ -17367,8 +17370,4 @@
 	
 	
 	
-	</standOff>
-
-
-
-</TEI>
+	</standOff></TEI>
