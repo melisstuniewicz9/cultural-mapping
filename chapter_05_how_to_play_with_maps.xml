@@ -1324,6 +1324,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026214659867",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T01:46:59.867Z",
+	"dcterms:modified": "2026-10-27T01:46:59.867Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026214659867#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026214659867#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/listBibl/bibl[6]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/127979069",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026214708611",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T01:47:08.611Z",
+	"dcterms:modified": "2026-10-27T01:47:08.611Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026214708611#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026214708611#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/listBibl/bibl[5]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/122888939",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -1832,8 +1990,8 @@
                         <bibl>Carey, Mathew. <title level="m">Carey’s American Pocket Atlas</title>. Philadelphia: M. Carey, 1805.</bibl>
                         <bibl>Clay, Jenny Strauss. <title level="a">Mapping the Catalogue of Ships</title>. <title level="m">Scholars’ Lab Blog</title>. 13 January 2012. <ref target="http://www.scholarslab.org/announcements/mapping-the-catalogue-of-ships">http://www.scholarslab.org/announcements/mapping-the-catalogue-of-ships</ref>
                         </bibl>
-                        <bibl>Drucker, Johanna. <title level="m">SpecLab: Digital Aesthetics and Projects in Speculative Computing</title>. Chicago: University of Chicago Press, 2009.</bibl>
-                        <bibl>Gregory, Ian, and Paul S. Ell. <title level="m">Historical GIS: Technologies, Methodologies, and Scholarship</title>. Cambridge: Cambridge University Press, 2007.</bibl>
+                        <bibl>Drucker, Johanna. <title level="m">SpecLab: Digital Aesthetics and Projects in Speculative Computing</title>. Chicago: <orgName key="University of Chicago. Press" ref="http://viaf.org/viaf/122888939">University of Chicago Press</orgName>, 2009.</bibl>
+                        <bibl>Gregory, Ian, and Paul S. Ell. <title level="m">Historical GIS: Technologies, Methodologies, and Scholarship</title>. Cambridge: <orgName key="Cambridge university press" ref="http://viaf.org/viaf/127979069">Cambridge University Press</orgName>, 2007.</bibl>
                         <bibl>Henshaw, Frances Alsop. <title level="a">Book of Penmanship Executed at the Middlebury Female Academy</title>. 1823. <title level="m">Library of David Rumsey</title>. Pub. List No. 2501.000. <ref target="http://bit.ly/dmbgHL">http://bit.ly/dmbgHL</ref>
                         </bibl>
                         <bibl>Jessop, Martyn. <title level="a">“The Inhibition of Geographical Information in Digital Humanities Scholarship.”</title>
