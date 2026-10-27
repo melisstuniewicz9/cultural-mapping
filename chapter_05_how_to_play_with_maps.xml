@@ -771,6 +771,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?person_annotation_20261026213619496",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T01:36:19.496Z",
+	"dcterms:modified": "2026-10-27T01:36:19.496Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?person_annotation_20261026213619496#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?person_annotation_20261026213619496#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/ref/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/50566653",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026213640202",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T01:36:40.202Z",
+	"dcterms:modified": "2026-10-27T01:36:40.202Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026213640202#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026213640202#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/ref/ref/ref/ref/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q134008740",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -812,7 +970,7 @@
                 <p xml:id="p1214">
                     <ref target="#intertextuality">
                         <ref target="#education">The title of this chapter is a nod to <persName><persName key="Monmonier, Mark S." ref="http://viaf.org/viaf/79086507">Mark Monmonier’s</persName></persName> influential 1991 volume, <title level="m">How to Lie with Maps</title>, a book that raised the cartographic awareness of a generation of university students, particularly in the social sciences where the stakes can be quite high for uncritical reading of graphs and images. <persName key="Monmonier, Mark S." ref="http://viaf.org/viaf/79086507">Monmonier</persName> examines the complex rhetoric of contemporary mapmaking in the age of print journalism and pre-web mass media.</ref>
-                        <ref target="#technology">His book provides a cautionary tour through the variety of expressive approaches that cartographers and the designers of geospatial infographics were using on the cusp—but not quite the bloom—of interactive digital mapping. In essence, it is a survey of print-based designs that produce geospatial un-truths in exactly those situations where truth is implied or expected.</ref> In other words, <persName key="Monmonier, Mark S." ref="http://viaf.org/viaf/79086507">Monmonier</persName> looks at mappy, newsprint versions of a progression Mark Twain is said to have named <q>lies, damned lies, and statistics.</q>
+                        <ref target="#technology">His book provides a cautionary tour through the variety of expressive approaches that cartographers and the designers of geospatial infographics were using on the cusp—but not quite the bloom—of interactive digital mapping. In essence, it is a survey of print-based designs that produce geospatial un-truths in exactly those situations where truth is implied or expected.</ref> In other words, <persName key="Monmonier, Mark S." ref="http://viaf.org/viaf/79086507">Monmonier</persName> looks at mappy, newsprint versions of a progression <persName key="Twain, Mark, 1835-1910" ref="http://viaf.org/viaf/50566653">Mark Twain</persName> is said to have named <q>lies, damned lies, and statistics.</q>
                     </ref>
                 </p>
                 <p xml:id="p1215">
@@ -831,7 +989,7 @@
                     <ref target="#technology">
                         <ref target="#theme_or_topic">
                             <ref target="#education">
-                                <ref target="#spatiality">In this chapter—originally conceived as a keynote presentation for the Canadian Writing Research Collaboratory conference on space, place, and play—I seek to promote wise foolishness in the spatial humanities. I intend to interrogate the bases of digital mapping and of engagement with geospatial information tools and systems (that is, with analytical <abbr>GIS</abbr>) as we have received those technologies from the sciences, and from more mimetic disciplines like landscape architecture and urban planning. Further, I hope to encourage and enable digital humanists to play with maps. By implication, that means to toy with (and maybe even subvert) established technological systems of production and dissemination of digital maps. Those twinned areas of praxis and inquiry, for my purposes, require much attention and work—and there is no denying that play elicits humanists’ best work.</ref>
+                                <ref target="#spatiality">In this chapter—originally conceived as a keynote presentation for the <orgName key="Canadian Writing Research Collaboratory" ref="http://www.wikidata.org/entity/Q134008740">Canadian Writing Research Collaboratory</orgName> conference on space, place, and play—I seek to promote wise foolishness in the spatial humanities. I intend to interrogate the bases of digital mapping and of engagement with geospatial information tools and systems (that is, with analytical <abbr>GIS</abbr>) as we have received those technologies from the sciences, and from more mimetic disciplines like landscape architecture and urban planning. Further, I hope to encourage and enable digital humanists to play with maps. By implication, that means to toy with (and maybe even subvert) established technological systems of production and dissemination of digital maps. Those twinned areas of praxis and inquiry, for my purposes, require much attention and work—and there is no denying that play elicits humanists’ best work.</ref>
                                 <ref target="#manuscript_history">
                                     <ref target="#childhood">At the heart of this essay is a set of historical maps by a fourteen-year-old girl from 1820s New England. I will offer Frances Henshaw and her cartographic method as our guide to a twenty-first-century humanities <abbr>GIS</abbr>
                                     </ref>
