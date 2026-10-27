@@ -1798,6 +1798,243 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026215001744",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T01:50:01.744Z",
+	"dcterms:modified": "2026-10-27T01:50:01.744Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026215001744#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026215001744#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/listBibl/bibl[16]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q27991316",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?person_annotation_20261026215012203",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T01:50:12.203Z",
+	"dcterms:modified": "2026-10-27T01:50:12.203Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?person_annotation_20261026215012203#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?person_annotation_20261026215012203#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/listBibl/bibl[21]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/47145857778023020115",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?person_annotation_20261026215019491",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T01:50:19.491Z",
+	"dcterms:modified": "2026-10-27T01:50:19.491Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?person_annotation_20261026215019491#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?person_annotation_20261026215019491#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/listBibl/bibl[22]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/17655388",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -2329,15 +2566,15 @@
                         </bibl>
                         <bibl>Renear, Alan, Elli Mylonas, and David Durand. <title level="a">Refining Our Notion of What Text Really Is: The Problem of Overlapping Hierarchies</title>. 1993. <ref target="http://www.stg.brown.edu/resources/stg/monographs/ohco.html">http://www.stg.brown.edu/resources/stg/monographs/ohco.html</ref>
                         </bibl>
-                        <bibl>Scholars’ Lab. <title level="m">Neatline: Plot Your Course in Space and Time</title>. University of Virginia Library. <ref target="http://neatline.org">http://neatline.org</ref>
+                        <bibl>Scholars’ Lab. <title level="m">Neatline: Plot Your Course in Space and Time</title>. <orgName key="University of Virginia Libraries" ref="http://www.wikidata.org/entity/Q27991316">University of Virginia Librar</orgName>y. <ref target="http://neatline.org">http://neatline.org</ref>
                         </bibl>
                         <bibl>. <title level="m">Spatial Humanities: Institute for Enabling Geospatial Scholarship</title>. <orgName key="University of Virginia. Library" ref="http://viaf.org/viaf/154761183">University of Virginia Library</orgName>. <ref target="http://spatial.scholarslab.org">http://spatial.scholarslab.org</ref>
                         </bibl>
                         <bibl>Schulten, Susan. <title level="a">Emma Willard and the Graphic Foundations of American History</title>. <title level="j">Journal of Historical Geography</title> 33 (2007): 542–64.</bibl>
                         <bibl>Willard, Emma. <title level="a">Letter to Miss Foster, 5 Nov. 1848</title>. <title level="m">The Life of Emma Willard</title>, by John Lord. New York: D. Appleton, 1873.</bibl>
                         <bibl>. <title level="m">A Plan for Improving Female Education</title>. Middlebury: S.W. Copeland, 1819.</bibl>
-                        <bibl>Willson, Marcius. <title level="a">A Critical Review of American Common School Histories: As Embraced in a Report Submitted to the New Jersey Society of Teachers and Friends of Education</title>. <title level="j">Biblical Repository</title> (July 1845): 517–39.</bibl>
-                        <bibl>Woodbridge, William Channing, and Emma Willard. <title level="m">Geography for Beginners</title>. Hartford, CT: Oliver D. Cooke, 1826.</bibl>
+                        <bibl><persName key="Willson, Marcius, 1813-1905" ref="http://viaf.org/viaf/47145857778023020115">Willson, Marcius</persName>. <title level="a">A Critical Review of American Common School Histories: As Embraced in a Report Submitted to the New Jersey Society of Teachers and Friends of Education</title>. <title level="j">Biblical Repository</title> (July 1845): 517–39.</bibl>
+                        <bibl><persName key="Woodbridge, William C. (William Channing), 1794-1845" ref="http://viaf.org/viaf/17655388">Woodbridge, William Channing</persName>, and Emma Willard. <title level="m">Geography for Beginners</title>. Hartford, CT: Oliver D. Cooke, 1826.</bibl>
                         <bibl>. <title level="m">A System of Universal Geography</title>. Hartford, CT: Oliver D. Cooke, 1827.</bibl>
                     </listBibl>
                 </div>
