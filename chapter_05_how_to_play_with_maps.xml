@@ -2351,6 +2351,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026215706350",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T01:57:06.350Z",
+	"dcterms:modified": "2026-10-27T01:57:06.350Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026215706350#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026215706350#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/ref/ref/ref/ref/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://vocab.getty.edu/ulan/500300107",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026215723280",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T01:57:23.280Z",
+	"dcterms:modified": "2026-10-27T01:57:23.280Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026215723280#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping/main/chapter_05_how_to_play_with_maps.xml?organization_annotation_20261026215723280#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[7]/ref/ref/ref/ref/ref/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/154761183",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -2422,7 +2580,7 @@
                 <p xml:id="p1218">
                     <ref target="#education">
                         <ref target="#intellectual_history">It is clear that we operate today from within the arc of a methodological turn in humanities scholarship. <ref target="#collaboration">
-                                <ref target="#methodology">The work my colleagues and I in the Scholars’ Lab have undertaken recently, from our location in a centre for digital study strategically embedded within the University of Virginia research library, aims to help us round that bend—that is, to prepare our archives and digital services to meet the humanities researchers we see moving, in increasing numbers, away from abstract, theoretical engagement with texts, images, and objects toward hands-on analysis, materialized synthesis, and active representation and manipulation of the cultural record. This work is not uncritical. It is theoretically informed, but it is also procedural and generative—hacked and made. And it is acutely aware of its relationship to traditional methods in the interpretive humanities.</ref>
+                                <ref target="#methodology">The work my colleagues and I in the Scholars’ Lab have undertaken recently, from our location in a centre for digital study strategically embedded within the <orgName key="University of Virginia Library" ref="http://vocab.getty.edu/ulan/500300107">University of Virginia research library</orgName>, aims to help us round that bend—that is, to prepare our archives and digital services to meet the humanities researchers we see moving, in increasing numbers, away from abstract, theoretical engagement with texts, images, and objects toward hands-on analysis, materialized synthesis, and active representation and manipulation of the cultural record. This work is not uncritical. It is theoretically informed, but it is also procedural and generative—hacked and made. And it is acutely aware of its relationship to traditional methods in the interpretive humanities.</ref>
                             </ref>
                         </ref>
                     </ref>
@@ -2441,7 +2599,7 @@
                         <ref target="#education">
                             <ref target="#collaboration">
                                 <ref target="#theme_or_topic">
-                                    <ref target="#spatiality">The Scholars’ Lab at the University of Virginia Library has been busy in this arena. <ref target="#economics">Over the past few years, we have offered a variety of training programs for humanities scholars, software developers, and <abbr>GIS</abbr> librarians, including an Institute for Enabling Geospatial Scholarship funded by the National Endowment for the Humanities (NEH)</ref>. We have collaborated on presentational mapping and analytical <abbr>GIS</abbr> projects with University of Virginia faculty and with winners of our graduate fellowships in digital humanities. (In this program, nearly every applicant’s research project since 2007 has included some sort of spatial dimension.)</ref>
+                                    <ref target="#spatiality">The Scholars’ Lab at the <orgName key="University of Virginia. Library" ref="http://viaf.org/viaf/154761183">University of Virginia Library</orgName> has been busy in this arena. <ref target="#economics">Over the past few years, we have offered a variety of training programs for humanities scholars, software developers, and <abbr>GIS</abbr> librarians, including an Institute for Enabling Geospatial Scholarship funded by the National Endowment for the Humanities (NEH)</ref>. We have collaborated on presentational mapping and analytical <abbr>GIS</abbr> projects with University of Virginia faculty and with winners of our graduate fellowships in digital humanities. (In this program, nearly every applicant’s research project since 2007 has included some sort of spatial dimension.)</ref>
                                     <ref target="#writing_climate">We have worked to make our collection of <abbr>GIS</abbr> data and scanned historical maps discoverable and freely available for use by scholars and developers in the most flexible way possible. Further, we have undertaken a project called Neatline, a set of open source, Omeka plug-ins for digital storytelling, <ref target="#economics">funded by the Library of Congress and <abbr>NEH</abbr>
                                         </ref>. We are developing these tools so scholars can create their own selective, content-driven, and highly interpreted geotemporal expressions of collections that may be housed in libraries, museums, and archives, or which they assemble themselves with the aid of our Neatline software.</ref>
                                 </ref>
